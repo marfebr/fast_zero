@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Copia od arquivos do projeto
-        uses: actions/checkeout@v3
+        uses: actions/checkout@v3
       - name: Instalar o Python
         uses: actions/setup-python@v5
         with:
